@@ -87,7 +87,7 @@ function ssh() { z4h ssh "$@" }
 # Define aliases.
 alias tree='tree -a -I .git'
 alias l='ls -l'  # <- I added this and anything below
-alias gp=gp.sh
+alias g=gp.sh
 
 # Add flags to existing aliases.
 alias ls="${aliases[ls]:-ls} -A"
